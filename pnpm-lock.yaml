@@ -21,9 +21,6 @@ importers:
       '@vitejs/plugin-vue-jsx':
         specifier: ^5.1.3
         version: 5.1.3(vite@7.3.1(@types/node@25.0.8)(terser@5.44.1))(vue@3.5.26(typescript@5.8.2))
-      terser:
-        specifier: ^5.44.1
-        version: 5.44.1
       vite:
         specifier: ^7.3.1
         version: 7.3.1(@types/node@25.0.8)(terser@5.44.1)
@@ -1299,6 +1296,7 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
+    optional: true
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
@@ -1654,11 +1652,13 @@ snapshots:
       node-releases: 2.0.27
       update-browserslist-db: 1.2.3(browserslist@4.28.1)
 
-  buffer-from@1.1.2: {}
+  buffer-from@1.1.2:
+    optional: true
 
   caniuse-lite@1.0.30001764: {}
 
-  commander@2.20.3: {}
+  commander@2.20.3:
+    optional: true
 
   compare-versions@6.1.1: {}
 
@@ -1896,6 +1896,7 @@ snapshots:
     dependencies:
       buffer-from: 1.1.2
       source-map: 0.6.1
+    optional: true
 
   source-map@0.6.1: {}
 
@@ -1917,6 +1918,7 @@ snapshots:
       acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
+    optional: true
 
   tinyglobby@0.2.15:
     dependencies:
