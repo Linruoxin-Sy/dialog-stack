@@ -34,7 +34,7 @@ export default defineConfig({
 
 ## Get Started
 
-1. 在根组件中添加 `<DialogContainer />`
+1. 在 `App.vue` 中添加 `<DialogContainer />`
 
 ```vue
 <script setup lang="ts">
